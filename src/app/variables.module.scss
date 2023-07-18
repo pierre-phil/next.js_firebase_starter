@@ -1,0 +1,56 @@
+/*=============================================
+=                SASS variables               =
+=============================================*/
+
+/* Font-size
+-------------------------------------------------- */
+
+$font-xs: 8px;
+$font-sm: 12px;
+$font-md: 16px;
+$font-lg: 20px;
+$font-xl: 30px;
+$font-xxl: 40px;
+$font-xxxl: 60px;
+
+/* Breakpoints
+-------------------------------------------------- */
+
+$xs: 340px;
+$sm: 576px;
+$md: 769px;
+$lg: 992px;
+$xl: 1200px;
+$xxl: 1400px;
+
+/* Colors
+-------------------------------------------------- */
+
+$black: #0c0f0a;
+$pink: #ff206e;
+$yellow: #fbff12;
+$blue: #41ead4;
+$white: #ffffff;
+
+/* Boilerplate for media queries
+-------------------------------------------------- */
+
+// 0 to xs
+@media screen and (max-width: $xs) {
+}
+
+// xs to sm
+@media screen and (min-width: $xs) and (max-width: $sm) {
+}
+
+// sm to md
+@media screen and (min-width: $sm) and (max-width: $md) {
+}
+
+// md to lg
+@media screen and (min-width: $md) and (max-width: $lg) {
+}
+
+// lg to ∞
+@media screen and (min-width: $lg) {
+}

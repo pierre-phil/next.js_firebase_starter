@@ -1,0 +1,50 @@
+/*=============================================
+=                  Home styles                =
+=============================================*/
+
+/* Imports
+-------------------------------------------------- */
+
+@import "./variables.module.scss";
+
+/* title1
+-------------------------------------------------- */
+
+.title1 {
+  line-height: 0.9;
+  font-size: clamp($font-xxl, 10vw, $font-xxxl);
+  font-weight: bold;
+  margin-top: 1.2rem;
+  padding: 0 1.2rem;
+  background-image: linear-gradient(to top, $pink, $yellow);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.line1 {
+  font-size: clamp(calc($font-xxl * 1.3), 10vw, calc($font-xxxl * 1.3));
+}
+
+/* media queries
+-------------------------------------------------- */
+
+// 0 to xs
+@media screen and (max-width: $xs) {
+}
+
+// xs to sm
+@media screen and (min-width: $xs) and (max-width: $sm) {
+}
+
+// sm to md
+@media screen and (min-width: $sm) and (max-width: $md) {
+}
+
+// md to lg
+@media screen and (min-width: $md) and (max-width: $lg) {
+}
+
+// lg to ∞
+@media screen and (min-width: $lg) {
+}

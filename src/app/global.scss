@@ -1,0 +1,22 @@
+/*=============================================
+=                 Global styles               =
+=============================================*/
+
+// Styles in this file will overwrite global styles
+// Can't target pure CSS elements in module-based CSS. Only classnames allowed
+
+/* Imports
+-------------------------------------------------- */
+
+@import "./variables.module.scss";
+
+/* 
+-------------------------------------------------- */
+
+.text-center {
+  text-align: center;
+}
+
+.title {
+  font-size: $font-xxxl;
+}
