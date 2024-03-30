@@ -12,9 +12,7 @@ import { jost } from "./fonts";
 -------------------------------------------------- */
 
 export const metadata = {
-  title: "MANON KOLTES x OZENKAWA - Nouveau Jour - Stream & follow",
-  description:
-    "Le nouveau titre de MANON KOLTES et OZENKAWA est disponible partout. Retrouvez tous les liens de streaming et de téléchargement, les profils des artistes et les dernières infos.",
+  title: "Next.js - Firebase starter",
 };
 
 /* Component
@@ -22,7 +20,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="fr" className={jost.className}>
+    <html lang="en" className={jost.className}>
       <body>{children}</body>
     </html>
   );
